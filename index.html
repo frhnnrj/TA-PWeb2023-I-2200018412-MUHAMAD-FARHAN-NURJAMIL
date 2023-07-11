@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" href="style.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <title>Login</title>
+</head>
+
+<body>
+    <div class="box">
+        <form method="GET" action="login.php" name="input">
+            <div id="video-background">
+                <video autoplay loop muted id="video">
+                    <source src="background.mp4" type="video/mp4">
+                </video>
+            </div>
+            <div id="video-overlay"></div>
+            <div id="content">
+
+            <div class="container">
+                <div class="top">
+                    <span>Have An Account?</span>
+                    <header>Login</header>
+                </div>
+                <div class="input-field">
+                    <input type="text" class="input" placeholder="Username" name="username" id="">
+                    <i class='bx bx-user'></i> 
+                </div>
+                <div class="input-field">
+                    <input type="password" class="input" placeholder="Password" name="password" id="">
+                    <i class='bx bx-lock-alt'></i>
+                </div>
+                <div class="input-field">
+                    <input type="submit" class="submit" value="Login" id="">
+                </div>
+                <div class="two-cool">
+                    <div class="one">
+                        <input type="checkbox" name="" id="check">
+                        <label for="check">Remember Me</label>
+                    </div>
+                </div>
+                <div class="two">
+                    <label><a href="#">Forgot Password</a></label>
+                </div>
+            </div>
+        </div>
+        </form>
+    </div>
+</body>
+</html>
